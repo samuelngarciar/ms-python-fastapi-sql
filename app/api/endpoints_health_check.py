@@ -1,8 +1,8 @@
-from fastapi import APIRouter, Depends
-from flask import jsonify
+from fastapi import APIRouter
+from fastapi.responses import JSONResponse
 
 router = APIRouter()
 
 @router.get("/health")
 def health_check():
-    return jsonify({"status": "ok"}), 200
+    return JSONResponse(content={"status": "ok"}, status_code=200)
