@@ -1,7 +1,9 @@
 # ms-python-fastapi-sql
-Model project for teach concepts
+This project is a Proof of concept that allow tech of simple way how can be organized a microservice and how to access to system table from Microsoft SQL 2019
+The main idea here is show the basic structure and test the basic flow of commnication between the components of the solution even this can be use as base for other projects
 
-This is a microservice that allow show you the best practices respect desing, implementation and access to database considerating the follows aspects:
+Note. You can to compare this with other similar project here called "ms-python-flask-sql"
+Technical aspects follows:
 
 1. Distribution reponsability in layers (models, repositories, services and api)
 2. Tecnology stack
