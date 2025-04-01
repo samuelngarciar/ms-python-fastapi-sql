@@ -43,7 +43,7 @@ time curl -v "http://localhost:5000/sysobjects?limit=5&offset=10"
 
 ### Test 2, Request the microservice health check
 time curl -v "http://localhost:5000/health"
-![image](https://github.com/user-attachments/assets/1cb9ecde-c6e3-4aba-abc3-c966b65567f8)
+![image](https://github.com/user-attachments/assets/964a8866-2c3e-4a6d-be3e-3b47beba44f2)
 
 
 
